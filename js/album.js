@@ -23,7 +23,7 @@ const files  = window.PHOTO_FILES || [];
 const FILTROS_VALIDOS = IDS.concat(['todas']);
 
 const TITULOS = {
-    impresion:  { titulo: 'Fotos para impresión', sub: 'Las que se imprimen en 5x7 pulgadas' },
+    impresion:  { titulo: 'Fotos para impresión', sub: 'Fotos elegidas para imprimir' },
     album:      { titulo: 'Álbum Digital',        sub: 'Las favoritas de ' + CFG.nombreCorto },
     descartada: { titulo: 'Fotos descartadas',    sub: 'Las que no entraron a la selección' },
     todas:      { titulo: 'Álbum completo',       sub: 'Todas las fotos seleccionadas' }
